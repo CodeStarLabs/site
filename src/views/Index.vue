@@ -190,7 +190,7 @@ const handleMenuClick = (key: string) => {
 };
 
 const Login = () => {
-  window.location.href = '/login';
+  router.push('/login');
 }
 
 const home = () => {
