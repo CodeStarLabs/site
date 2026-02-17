@@ -53,7 +53,7 @@
           <div class="logo-container">
             <a-row>
               <a-col style="padding-left: 7px;">
-                <a-image src="https://krseoul.imgtbl.com/i/2024/08/17/66c052de56e88.png" :width="60" :height="60" />
+                <a-image src="./codestarlabs.svg" :width="60" :height="60" />
               </a-col>
               <a-col>
                 <h1 class="logo-title">Code Star Labs-码星Labs</h1>
@@ -151,11 +151,8 @@ const aboutItems: FooterItem[] = [
 ];
 
 const productItems: FooterItem[] = [
-  { key: 'https://box3.codestarlabs.top/blockly3/', label: '新blockly3' },
-  { key: 'https://box3.codestarlabs.top/blockly/', label: '旧blockly3' },
-  { key: 'https://chatapi.codestarlabs.top/', label: 'ChatAPI' },
-  { key: 'https://docker.codestarlabs.top/', label: 'Docker镜像' },
-  { key: 'https://chat.codestarlabs.top/', label: 'ChatAPI实验室' },
+  { key: 'https://codestarlabs.github.io/Box3-Blockly-3.0/', label: 'Box3 Blockly3.0' },
+  { key: 'https://box3.codestarlabs.top/BOX3-Blockly/', label: 'Box3 Blockly' },
 ];
 
 const serviceItems: FooterItem[] = [

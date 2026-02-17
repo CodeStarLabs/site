@@ -68,7 +68,7 @@
   <section class="team-section" ref="teamSection" v-motion-slide-visible-once-bottom id="6">
     <a-row justify="center">
       <a-col :span="24">
-        <h2 class="section-title" v-motion="teamTitleMotion">团队成员</h2>
+        <h2 class="section-title" v-motion="teamTitleMotion">团队核心成员</h2>
         <a-row type="flex" justify="center" :gutter="[24, 24]">
           <a-col :xs="20" :sm="12" :md="8" :lg="6" v-for="(member, index) in teamMembers" :key="member.name">
             <a-card class="team-member-card" v-motion="getMemberCardMotion(index)">
@@ -105,7 +105,7 @@ interface TeamMember {
   GithubUrl: string;
 }
 
-const aboutText = `Code Star Labs（码星Labs或码星实验室）是一个高质量的青少年编程云团队，这里面聚集着众多编程大佬。我们在这里一起学习和相互交流，以提升自己的各项技能。同时，我们都以编程为爱好，共同研究和讨论各种编程技术问题。目前我们已有30+的成员，且在各成员以及与其他团队的合作下开发出了一系列优质的产品。Code Star Labs 非常欢迎你的加入！`;
+const aboutText = `Code Star Labs（码星Labs或码星实验室）是一个高质量的在线编程团队。我们在这里一起学习和相互交流，以提升自己的各项技能。同时，我们都以编程为爱好，共同研究和讨论各种编程技术问题。目前我们已有30+的成员，且在各成员以及与其他团队的合作下开发出了一系列优质的产品。Code Star Labs 非常欢迎你的加入！`;
 
 const teamMembers: TeamMember[] = [
   {

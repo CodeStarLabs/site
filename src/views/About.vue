@@ -4,7 +4,7 @@
             <section class="hero" v-motion-slide-visible-once-bottom>
                 <div v-motion="heroContentMotion" class="hero-content">
                     <h1 class="hero-title">Code Star Labs</h1>
-                    <p class="hero-subtitle">高质量的青少年编程云团队，聚集众多编程大佬</p>
+                    <p class="hero-subtitle">高质量的在线编程团队</p>
                     <a-button type="primary" size="large" @click="scrollTo('about')" class="cta-button">
                         了解更多
                         <template #icon><icon-right /></template>
@@ -21,7 +21,7 @@
                 <div v-motion="sectionContentMotion" class="section-content">
                     <p>
                         Code Star
-                        Labs（码星Labs或码星实验室）是一个高质量的青少年编程云团队，这里面聚集着众多编程大佬。我们在这里一起学习和相互交流，以提升自己的各项技能。同时，我们都以编程为爱好，共同研究和讨论各种编程技术问题。目前我们已有30+的成员，且在各成员以及与其他团队的合作下开发出了一系列优质的产品。Code
+                        Labs（码星Labs或码星实验室）是一个高质量的在线编程团队。我们在这里一起学习和相互交流，以提升自己的各项技能。同时，我们都以编程为爱好，共同研究和讨论各种编程技术问题。目前我们已有30+的成员，且在各成员以及与其他团队的合作下开发出了一系列优质的产品。Code
                         Star Labs 非常欢迎你的加入！
                     </p>
                 </div>
@@ -40,7 +40,7 @@
             </section>
 
             <section id="team" class="section" v-motion-slide-visible-once-bottom>
-                <h2 v-motion="sectionTitleMotion" class="section-title">团队成员
+                <h2 v-motion="sectionTitleMotion" class="section-title">团队核心成员
                 </h2>
                 <div class="team-grid">
                     <a-card v-for="(member, index) in teamMembers" :key="member.name" v-motion="getProductCardMotion(index)" class="team-member-card">

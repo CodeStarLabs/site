@@ -89,11 +89,8 @@ const currentSection = ref('about');
 const isScrolled = ref(false);
 
 const products: Product[] = [
-  { id: '1', name: '新blockly3', shortDescription: '最新版本的Blockly编程工具，带来更多创新功能', image: 'https://krseoul.imgtbl.com/i/2024/08/18/66c1d657ecce9.png', url: 'https://box3.codestarlabs.top/blockly3/' },
-  { id: '2', name: '旧blockly3', shortDescription: '稳定可靠的Blockly编程工具，经典永不过时', image: 'https://krseoul.imgtbl.com/i/2024/08/18/66c1d646a9b6b.png', url: 'https://box3.codestarlabs.top/blockly/' },
-  { id: '3', name: 'Chat', shortDescription: '强大的聊天机器人API接口，轻松实现智能对话', image: 'https://krseoul.imgtbl.com/i/2024/08/18/66c1d646b01e6.png', url: 'https://chat.codestarlabs.top/' },
-  { id: '4', name: 'Docker镜像', shortDescription: '高效的容器化部署镜像，简化您的开发流程', image: 'https://krseoul.imgtbl.com/i/2024/08/18/66c1d6743389e.png', url: 'https://docker.codestarlabs.top/' },
-  { id: '5', name: 'ChatAPI实验室', shortDescription: 'ChatAPI的创新测试环境，探索AI的无限可能', image: 'https://krseoul.imgtbl.com/i/2024/08/18/66c1d658043ce.png', url: 'https://chatapi.codestarlabs.top/' },
+  { id: '1', name: 'Box3 Blockly 3.0', shortDescription: '最新版本的Blockly编程工具，带来更多创新功能', image: './screenshots/box3blockly3screenshot.png', url: 'https://codestarlabs.github.io/Box3-Blockly-3.0/' },
+  { id: '2', name: 'BOX3 Blockly', shortDescription: '稳定可靠的Blockly编程工具，经典永不过时', image: './screenshots/box3blocklyscreenshot.png', url: 'https://codestarlabs.github.io/BOX3-Blockly/' },
 ];
 
 const features = [
